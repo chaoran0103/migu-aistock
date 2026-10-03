@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-03T17:26:14.481739+08:00",
+  "conversation_tests": {
+    "count": 14,
+    "result": "passed"
+  },
+  "input_flow_regression": "passed",
+  "packaged_sources_parse": "passed",
+  "private_credentials_excluded": true,
+  "docker_build": "not run: Docker is unavailable on the packaging machine",
+  "online_deployment": "not performed; package for user redeployment",
+  "live_market_and_llm": "not repeated during packaging; regression tests use isolated fixtures"
+}

@@ -1,0 +1,121 @@
+{
+  "release": "conversation-20261003",
+  "files": {
+    ".dockerignore": {
+      "sha256": "2509598d08fa32ecd66dc4a63a761a75fab447041c92a08500e5af42c43d0a18",
+      "bytes": 261
+    },
+    ".env.example": {
+      "sha256": "ed2a82140691eaf374bebf7818945168ff7c80f049714b9493ae192009932e92",
+      "bytes": 220
+    },
+    ".gitignore": {
+      "sha256": "f12dfc5a9d3c24b4184df6e193c8066f4a42069bb7b60d3995e13f7a72abff4c",
+      "bytes": 128
+    },
+    ".streamlit/config.toml": {
+      "sha256": "a3aef688044dbb3707fcf853b1e7f60a582074a67e1dd89ec2f0acd2d0b6d044",
+      "bytes": 215
+    },
+    ".streamlit/secrets.example.toml": {
+      "sha256": "ac1481949ae42411bf25f2a39bdcc6bea2b57d7c8bf8a73e69f020ea881283a6",
+      "bytes": 223
+    },
+    "DEPLOY.md": {
+      "sha256": "1fc8d80b5669a8c4f66e7fa29c86da2b555bc3ab237d2e205f29b445a147beb8",
+      "bytes": 4729
+    },
+    "Dockerfile": {
+      "sha256": "264f394e94a55ea6994015d29c294690a0c68b0789f3a681626b0d017835176c",
+      "bytes": 864
+    },
+    "README.md": {
+      "sha256": "d1627c927b5bf668c2088aadb22b727c05dfb02f7f3301aa9e2ca44c1e2a15f0",
+      "bytes": 15584
+    },
+    "RELEASE.json": {
+      "sha256": "5c03ee1bc707fe0d5d8da9be3e023a1af34110952fe9db46d814c58092d8c907",
+      "bytes": 1002
+    },
+    "VALIDATION.json": {
+      "sha256": "f29bb04292117b728845a97ba214c7a4ea1677e6851060d7452738f0662ac4ac",
+      "bytes": 487
+    },
+    "app.py": {
+      "sha256": "3d0eb69f6eccff0da0cddb14f1e713c10f57a694ec0cdc60a8ad4f402d9ebd67",
+      "bytes": 34217
+    },
+    "assets/shanghai-skyline.png": {
+      "sha256": "abdfff7461036673b95f4a71dc4d4d16467f5136bb9d34559f9ad0faf705ed95",
+      "bytes": 4133933
+    },
+    "assets/theme.css": {
+      "sha256": "6a9afb187dfac67ae360ed5458503714d114c2b5c245893c11676af41e2fb7d9",
+      "bytes": 22397
+    },
+    "conversation.py": {
+      "sha256": "02a8045a523699356efcbdc0a02e74355889580a07eb98b1a5187c681978d401",
+      "bytes": 29693
+    },
+    "data.py": {
+      "sha256": "83de5c912b7328d632544fee4e23f4fc981801bddc1360f2ae740e8a8e19d6ec",
+      "bytes": 24023
+    },
+    "explain.py": {
+      "sha256": "e444d10daca4a77f3f6147ce7170f39388274bfaac2a545e2f3a855dd1f1ac5c",
+      "bytes": 2720
+    },
+    "market_preview.py": {
+      "sha256": "bac7269e99c9c5e1328957403d14d854202466db46d3b1407c9c6a41bca4d2c5",
+      "bytes": 496660
+    },
+    "metrics.py": {
+      "sha256": "d5128c41e966179ca25840c43234671369a9fb6e8a7bae5d299050a26af1bd72",
+      "bytes": 10718
+    },
+    "parse.py": {
+      "sha256": "4b5c1c3a991f75d773420a97ae053bb759b1b84a8c639a999937e4c5fe0ca374",
+      "bytes": 16691
+    },
+    "requirements-tested.txt": {
+      "sha256": "c9d6f2b7bef9a46909356fefb23130cb167b7711a7008bf1937b4c2ef288f1a7",
+      "bytes": 163
+    },
+    "requirements.txt": {
+      "sha256": "9ccff4231d84eeae15f102159b1ce71c2e0eedee096cc91881a29a48f6451d68",
+      "bytes": 65
+    },
+    "schema.py": {
+      "sha256": "eae9ab0dc64592441edbe6e415300bdbc39f2428a09065d29b8de12ff4e7d2c1",
+      "bytes": 4294
+    },
+    "screen.py": {
+      "sha256": "51b6252078d95676ee7e5cb1b52924f7ea07c16239c9997450f2cf3902762857",
+      "bytes": 18060
+    },
+    "screening_jobs.py": {
+      "sha256": "8cd939e4575ad2b90a328826986670fbe01e910384d88cea2a80b4766c75293f",
+      "bytes": 2665
+    },
+    "selftest_conversation.py": {
+      "sha256": "652d31cff7d84e654a8c2ac94434664f4cad26ec1c5601cec5bc08130c5c3fe8",
+      "bytes": 16512
+    },
+    "selftest_data.py": {
+      "sha256": "1def1c6ba817d8eca2df4011276fafebc03ee76459290b35f08ad67365fe9651",
+      "bytes": 984
+    },
+    "selftest_e2e.py": {
+      "sha256": "b7080f66429ab0300d210ab3744d61e3dce47ead61feeca66721fa05f940d622",
+      "bytes": 5030
+    },
+    "selftest_input_flow.py": {
+      "sha256": "d5ebed91eb2ea2d7a2a3cae0205cb0fd151d7281b05fffd9039f729e14aba322",
+      "bytes": 10649
+    },
+    "ui.py": {
+      "sha256": "0167c33a12cd82a3a022ba5e69768d12a2e1e02faa187ce75ca4f2eda144bd42",
+      "bytes": 8674
+    }
+  }
+}

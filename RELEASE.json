@@ -1,0 +1,32 @@
+{
+  "name": "觅股-意图选股AI平台",
+  "release": "conversation-20261003",
+  "entrypoint": "app.py",
+  "changes": [
+    "统一为对话选股，用户消息靠右显示",
+    "条件内嵌对话卡片，支持直接执行、手动编辑与自然语言追加修改",
+    "删除我可以怎么用按钮，用户发出消息后才显示撤销按钮",
+    "保留原数据层、筛选、评分、解释与后台任务逻辑"
+  ],
+  "deployment": {
+    "dockerfile": "Dockerfile",
+    "port_env": "PORT",
+    "default_port": 8501,
+    "server_environment": [
+      "LLM_BASE_URL",
+      "LLM_API_KEY",
+      "LLM_MODEL"
+    ],
+    "note": "复用线上已配置的三个 LLM 环境变量；压缩包不包含真实 API Key。"
+  },
+  "excluded": [
+    ".streamlit/secrets.toml",
+    ".env",
+    ".venv",
+    "data_cache",
+    "outputs",
+    "work",
+    "__pycache__"
+  ],
+  "agent_scope": "短期上下文与澄清的受控对话式选股工作流；没有自主规划和反复工具调用循环"
+}

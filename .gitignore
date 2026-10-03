@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data_cache/
+outputs/
+work/
+.DS_Store
+.pytest_cache/
+
+# CloudBase 部署生成文件，不纳入源码仓库
+cloudbaserc.json

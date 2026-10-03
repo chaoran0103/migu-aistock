@@ -1,0 +1,6 @@
+akshare
+pandas
+pydantic>=2,<3
+openai
+streamlit>=1.64,<2
+requests

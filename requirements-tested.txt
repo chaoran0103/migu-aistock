@@ -1,0 +1,7 @@
+# Direct dependencies verified for this package with Python 3.12.
+akshare==1.19.1
+pandas==3.0.6
+pydantic==2.13.5
+openai==3.22.1
+streamlit==1.64.0
+requests==2.34.2
